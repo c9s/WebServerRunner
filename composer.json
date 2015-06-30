@@ -1,0 +1,19 @@
+{
+    "name": "corneltek/webserver-runner",
+    "desc": "A runner wrapper of the PHP built-in web server.",
+    "authors": [
+        {
+            "name": "c9s",
+            "email": "yoanlin93+composer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebServerRunner\\": "src/WebServerRunner/"
+        }
+    },
+    "license": "MIT"
+}
